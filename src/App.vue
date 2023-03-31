@@ -4,20 +4,23 @@
     <HelloWorld msg="Welcome to Your Vue.js App"/>
     <Home data="hey"/>
     <ComposingWithComponent/>
+    <TemplateWithExample/>
   </div>
 </template>
 
 <script>
 // import HelloWorld from './components/HelloWorld.vue'
 // import Home from './components/Home.vue'
-import ComposingWithComponent from './components/ComposingWithComponent.vue'
+// import ComposingWithComponent from './components/ComposingWithComponent.vue'
+import TemplateWithExample from './components/TemplateWithExample.vue';
 
 export default {
   name: 'App',
   components: {
     // HelloWorld,
     // Home,
-    ComposingWithComponent
+    // ComposingWithComponent,
+    TemplateWithExample
   }
 }
 </script>
